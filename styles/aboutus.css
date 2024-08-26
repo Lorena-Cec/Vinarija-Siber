@@ -1,0 +1,98 @@
+html,body
+{
+    width:100%;
+    overflow-x:hidden;
+}
+
+.portion{
+    font-family: Poppins, sans-serif;
+    font-size: 1.2vw;
+    line-height: 2em;
+}
+
+.intro .portion{
+    color: white;
+    font-size: 1.3vw;
+}
+
+.section-a .portion{
+    color: black;
+    font-size: 1.2vw;
+}
+
+.section-a .bottles{
+    width: 60vw;
+}
+
+.section-a .row{
+    background-color: #e3b2ba;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-title{
+    font-size: 2.5vw;
+    font-family: 'Abril Fatface', serif;
+    display: flex;
+    justify-content: center;
+    color:black;
+    margin-bottom: 15px;
+}
+
+.section-b .row{
+    background-color: #fff;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-b .bottles{
+    width: 50vw;
+    margin: 50px 0;
+}
+
+.section-c .row{
+    background-color: #000;
+    margin: 0;
+    padding: 50px 300px;
+}
+
+.section-c .section-title{
+    color: #9b5b68;
+    font-size: 3vw;
+    padding: 50px 0;
+}
+
+.section-c .portion{
+    color: white;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-d .row{
+    background-color: #000;
+    background-image: url("../images/clouds-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-d .section-title{
+    margin-top: 18vw;
+    margin-bottom: 18vw;
+    font-size: 3vw;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 1s;
+}
+  
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}

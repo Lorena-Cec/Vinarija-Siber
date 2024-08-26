@@ -1,0 +1,292 @@
+html,body
+{
+    width:100%;
+    overflow-x:hidden;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.main-header ul li {
+    display: inline-block;
+    padding: 5px 40px;
+    text-align: center;
+}
+
+.main-header img{
+    width: 180px;
+    padding: 0 30px;
+}
+
+.main-header a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: -1px;
+    font-size: 1.2em;
+    font-family: Poppins, sans-serif;
+}
+
+.logo{
+    display: block;
+}
+
+.nav{
+    padding-right: 40px;
+}
+
+
+
+.intro .row, .section-a .row, .section-b .row, .section-c .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro .row{
+    background-color: #000;
+    margin: 0;
+}
+
+.bottle{
+    width: 90vh;
+}
+
+.col-lg-7, .col-lg-4, .col-lg-3, .col-lg-6{
+    display: flex;
+    justify-content: center;
+}
+
+.main-title{
+    color: #9b5b68;
+    font-family: 'Abril Fatface', serif;
+}
+
+.intro .main-title{
+    font-size: 4.5vw;
+}
+
+.main-subtitle{
+    font-family: Poppins, sans-serif;
+}
+
+.intro .main-subtitle{
+    color: white;
+    font-size: 2.5vw;
+}
+
+
+.section-a .vineyard{
+    width: 55vw;
+    margin: 100px 0px 70px 90px;
+}
+
+.section-a .main-title, .section-c .main-title{
+    font-size: 1.8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.section-a .main-subtitle, .section-c .main-subtitle{
+    color: black;
+    font-size: 1vw;
+    padding: 15px;
+    line-height: 2em;
+}
+
+.find-out-more{
+    background-color: #9b5b68; 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9vw;
+    border-radius: 12px;
+}
+
+.find-out-more a{
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.h-100{
+    height: 100% !important;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 1s;
+}
+  
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.section-b .row{
+    background-color: #e3b2ba;
+    margin: 0;
+}
+
+.section-b .main-title{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.section-b .main-subtitle{
+    color: white;
+    font-size: 1.2vw;
+    padding: 15px;
+    line-height: 2em;
+}
+
+
+
+.wine{
+    width: 45vh;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 5px;
+    color: #9b5b68;
+    font-size: 20px;
+    transition: 0.2s ease;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+.prev:hover, .next:hover {
+    background-color: #9b5b68;
+    text-decoration: none;
+    color: white;
+}
+
+.map{
+    width: 65vh;
+    position: relative;
+}
+
+.pins img{
+    width: 3vh;
+}
+
+.pins1{ /*Erdut*/
+    position: absolute;
+    top: 17vh;
+    left: 56.2vh;
+}
+
+.pins2{ /*ZG*/
+    position: absolute;
+    top: 13.8vh;
+    left: 28.2vh;
+}
+
+.pins3{ /*OS*/
+    position: absolute;
+    top: 16.5vh;
+    left: 52vh;
+}
+
+.pins4{ /*Hvar*/
+    position: absolute;
+    top: 46.3vh;
+    left: 32.7vh;
+}
+
+
+/*
+footer
+*/
+
+.footer .row{
+    background-color: #e3b2ba;
+    padding: 80px 0 80px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    z-index:1000;
+}
+
+.footer .section-title{
+    font-family: 'Abril Fatface', serif;
+    font-size: 1.5vw;
+    color: #fff;
+    text-shadow: none;
+}
+
+.socials .icons{
+    width: 3vw;
+    margin: 8px;
+}
+
+.text .icons{
+    width: 3vw;
+}
+
+.address{
+    margin-left: 60px;
+    display:flex;
+    flex-direction: column;
+}
+
+.footer .text{
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer{
+    color: #fff;
+}
+
+.footer .portion{
+    display: inline;
+    vertical-align:middle;
+}
+
+.portion{
+    font-family: Poppins, sans-serif;
+    font-size: 1vw;
+    line-height: 2em;
+}
